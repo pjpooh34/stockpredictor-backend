@@ -71,3 +71,4 @@ models/
 *.key
 .env.*
 !.env.example
+.vercel
