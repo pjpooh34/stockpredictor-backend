@@ -209,7 +209,7 @@ export default function Landing() {
                 <p className="text-muted-foreground">Predictions Made</p>
               </div>
               <div>
-                <p className="text-4xl font-bold gradient-text"><1s</p>
+                <p className="text-4xl font-bold gradient-text">&lt;1s</p>
                 <p className="text-muted-foreground">Response Time</p>
               </div>
             </div>

@@ -1,9 +1,7 @@
 import React from 'react'
 import { useAuth } from '../lib/auth'
 import { 
-  TrendingUp, 
-  TrendingDown, 
-  Activity, 
+  TrendingUp,
   DollarSign,
   BarChart3,
   Bell,

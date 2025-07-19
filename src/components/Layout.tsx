@@ -7,7 +7,7 @@ import {
   Briefcase,
   Bell,
   Users,
-  ChartBar,
+  BarChart3,
   GraduationCap,
   Settings,
   LogOut,
@@ -22,7 +22,7 @@ const navItems = [
   { path: '/app/portfolio', icon: Briefcase, label: 'Portfolio' },
   { path: '/app/alerts', icon: Bell, label: 'Alerts' },
   { path: '/app/social', icon: Users, label: 'Social' },
-  { path: '/app/backtest', icon: ChartBar, label: 'Backtest' },
+  { path: '/app/backtest', icon: BarChart3, label: 'Backtest' },
   { path: '/app/education', icon: GraduationCap, label: 'Learn' },
   { path: '/app/settings', icon: Settings, label: 'Settings' },
 ]
