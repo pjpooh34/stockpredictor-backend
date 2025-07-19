@@ -6,10 +6,17 @@ from typing import Optional, List, Dict
 import os
 from dotenv import load_dotenv
 
-from .routers import auth, predictions, portfolio, alerts, social, backtest, options, risk, earnings, education
-from .database import engine, Base
-from .models import User
-from .config import settings
+try:
+    from .routers import auth, predictions, portfolio, alerts, social, backtest, options, risk, earnings, education
+    from .database import engine, Base
+    from .models import User
+    from .config import settings
+except ImportError:
+    # Handle relative imports for Railway deployment
+    from backend.routers import auth, predictions, portfolio, alerts, social, backtest, options, risk, earnings, education
+    from backend.database import engine, Base
+    from backend.models import User
+    from backend.config import settings
 
 load_dotenv()
 
